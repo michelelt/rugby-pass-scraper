@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="846fc592-6e0f-4bbb-98da-e66eb9285731" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Fantacalcio/Classes/DataScraper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fantacalcio/Classes/Fanta3plusDataScraper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fantacalcio/Classes/PlayerDataGetter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fantacalcio/configurations/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/CalendarScraper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/MatchScraper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/Scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AeP/Classes/Analytics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AeP/Classes/Parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AeP/Constants/Italian/escape_phrases.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AeP/Data/formatted/AeP_adds.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AeP/Data/formatted/AeP_formatted.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AeP/Data/formatted/AeP_rems.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AeP/Data/raw/011.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AeP/Data/raw/AeP.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AeP/Data/raw/SmartData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AeP/Data/raw/odio.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AeP/Data/raw/projectx.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AeP/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookDwonloader/requirements" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fantacalcio/Classes/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Fantacalcio/Classes/Player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fantacalcio/Classes/Players.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Fantacalcio/Classes/Players.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fantacalcio/Classes/Setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Fantacalcio/Classes/Setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fantacalcio/Optimizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fantacalcio/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Fantacalcio/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/TesiPhDDegliAltri/giordano_tesi.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/TesiPhDDegliAltri/morichetta_tesi.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/TesiPhDDegliAltri/trevisan_tesi.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/TesiPhDDegliAltri/vassio_tesi.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/4cities.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/0_abstract.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/1_introduction.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/2_related.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/3_datacollection.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/4_characterization.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/5_temporal.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/6_spatial.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/7_electric.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/8_conclusion.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/CoverLetter.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/DispersionIndex_filtered.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/Outline_18_12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/Paper.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/Related/BAPTISTA2014.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/Related/Cocca2018Conf.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/Related/Cocca2019Trans.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/Related/Cui2019.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/Related/Hou2019.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/Related/INFOCOM2016.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/Related/MADRID Caratterizzazione.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/Related/UMAP2017.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/Related/biblio.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/Related/empirical_usage.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/Related/finaltable.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/Related/highlights.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/Reviewer2/1-Enrivomental.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/Reviewer2/2-TripPricing.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/Reviewer2/3-CompareRelocation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/Reviewer2/4-SpatialDistribution.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/Reviewer2/5-vehiclereservation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/TRC_2020_203_R1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Abs_distance.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Abs_duration.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/ActractiveZones.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Battery_profile_System_User.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/CDF_Distance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/CDF_Duration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Charge.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/ChargeDuration.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/ChargeDuration_new.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Charge_new.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Charging Gap[h].pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Charging_Gap_new.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Charging_Gap_new_new.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/DispersionIndex.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/DispersionIndex_filtered.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/DispersionIndex_final.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/GenerativeZones.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/GenerativevsActractive.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/HourDistribution.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Init_Batterylvl.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Init_Batterylvl_new.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/NumParkings_Amsterdam.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/NumParkings_Vancouver.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/OperativeA.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/OperativeB.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/PopularZoneDistance.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/PopularZoneDistance_filter.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/PopularZoneDistance_final.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Relative_day_distance.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Relative_day_duration.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Relative_day_rentals.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Relative_distance.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Relative_duration.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Relative_rentals.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/RentalDistrCentroid_final_0.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/RentalDistrCentroid_final_1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/RentalDistrCentroid_final_2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/RentalsCont_day.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/RentalsDuration_isweek.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/RentalsDuration_weekday.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Vancouver_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Vancouver_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Vancouver_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Vancouver_1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Vancouver_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Vancouver_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Vancouver_3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/Vancouver_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/abs_day_distance.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/abs_day_duration.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/areaa.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/areab.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/charge_bar.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/charge_bar_new.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/day_distance.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/day_duration.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/day_usage.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/daymean_distance.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/daymean_duration.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/distance.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/distance_zoom.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/duration.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/final_Batterylvl.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/final_Batterylvl_new.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/fleetsize.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/fleetsize_minmax.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/mean_distance.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/mean_duration.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/meanday_rentals.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/pdf_charge.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/pdf_charge_new.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/placeholder1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/regression.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/rentalsabs.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/rentalsrel.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig/trend_silhouettes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/Correctivefactor.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/DispersionIndex_final.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/DispersionIndex_hour.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/PopularZoneDistance_final.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/RentalDistrCentroid_final_0.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/RentalDistrCentroid_final_1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/RentalDistrCentroid_final_diff2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/day_distance_cf.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/deviationcorrection.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/deviationspeed.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/distance_duration_avg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/distance_duration_median.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/distance_duration_std.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/distance_zoomNormalized.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/distance_zoom_cf.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/durationNormalized.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/duration_distance_median.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/esempio_parallel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/fleetdensity_minmax.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/new_cancellations.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/rentalsabs_2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/rentalsrel_2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/size_distance_median.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/size_duration_median.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/trend_silhouettes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/fig_rebuttal/world_map.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/finaltable.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/finaltable_2.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/highlights.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/main.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/main.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/natbib.bst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/natbib.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/oldmain.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/rebuttal_letter.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/CarSharing - Characterization/report.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/Master_Thedsis.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/UMAP.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/alencar2019 (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/iscc2020.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/optimization.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/predictions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/i_miei_paper/scalability.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/tesi_main.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/thesis" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi-scudo-example.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/FrontespiziAssemblati.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/FrontespiziAssemblati1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/FrontespiziAssemblati2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/Frontespizio-sss.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/FrontespizioLandscape.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/FrontespizioScudo.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/GuITlogo.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/MPlogo.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/TITDocScCropped.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/TITlogoCropped.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/Toptesi-con-topfront.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/Toptesi-con-topfront.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/Toptesi-example-topfront.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/Toptesi-example-topfront.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/VeraPDFiniziale.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/logodue.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/logoguittondo.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/logoquattro.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/logotre.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/logouno.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/lppl.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/topfront-example.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/topfront-example.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example-con-frontespizio.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example-con-frontespizio.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example-dottorale.aux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example-dottorale.lof" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example-dottorale.lot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example-dottorale.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example-dottorale.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example-dottorale.synctex.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example-dottorale.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example-dottorale.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example-luatex.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example-luatex.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example-magistrale.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example-magistrale.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example-sss.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example-sss.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example-triennale.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example-triennale.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example-xetex.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example-xetex.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-example.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-it.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-it.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi-scudo-example.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi.dtx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/toptesi.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/veraPDFconformance.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/veraPDFnoconformance.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PHD THESIS/toptesi/veraPDFnoconformance.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReMapBib/BibParser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReMapBib/DataOriginal/bib.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReMapBib/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Relocation/Classes/ReadConfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Relocation/Notebooks/read_pickle.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Relocation/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Relocation/scripts/Genetic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Relocation/scripts/clusters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Relocation/scripts/read_pickle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RelocationFromServer/Scripts/RelocAnalyses.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RivoliRugby/dash/rivoli_dash.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RivoliRugby/dash/rivoli_dash.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThesisPlots/Classes/Car2goFormatter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThesisPlots/UMAP/download_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UMAP/scripts/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/config/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/config/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/geo_data_source/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/geo_data_source/geo_data_source.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/geo_data_source/minneapolis_centerlines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/geo_data_source/minneapolis_trails_bikes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/trips_data_source/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/trips_data_source/big_data_db_trips.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/trips_data_source/louisville_scooter_trips.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/trips_data_source/minneapolis_scooter_trips.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/trips_data_source/trips_data_source.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/utils/geospatial_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/utils/path_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/utils/time_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_geo_trips/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_geo_trips/big_data_db_geo_trips.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_geo_trips/city_geo_trips.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_geo_trips/minneapolis_geo_trips.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/config/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/config/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/data_structures/city.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/data_structures/station.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/data_structures/vehicle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/data_structures/zone.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/demand_modelling/model_validation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/demand_modelling/model_validation_plot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/demand_modelling/model_validation_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/loading/Loader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/multiple_runs/multiple_runs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation/charging_primitives.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation/charging_strategies.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation/model_driven_simulator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation/simulator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation/trace_driven_simulator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_input/sim_config_grid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_input/sim_configs_target.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_input/sim_configs_versioned/confs_Torino/cost_conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_input/sim_configs_versioned/confs_Torino/model_validation_conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_input/sim_configs_versioned/confs_Torino/multiple_runs_conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_input/sim_configs_versioned/confs_Torino/sim_general_conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_input/sim_configs_versioned/confs_Torino/sim_run_conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_input/sim_configs_versioned/confs_Torino/single_run_conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_input/sim_configs_versioned/confs_Torino/vehicle_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_input/sim_configs_versioned/mpls_0/cost_conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_input/sim_configs_versioned/mpls_0/model_validation_conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_input/sim_configs_versioned/mpls_0/multiple_runs_conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_input/sim_configs_versioned/mpls_0/sim_general_conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_input/sim_configs_versioned/mpls_0/sim_run_conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_input/sim_configs_versioned/mpls_0/single_run_conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_input/sim_configs_versioned/mpls_0/vehicle_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_input/sim_input.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_input/sim_input_paths.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_output/multiple_runs_plotter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_output/plot_multiple_runs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_output/sim_output.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/simulation_output/sim_output_plotter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/single_run/get_eventG_input.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/single_run/get_traceB_input.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/single_run/run_eventG_sim.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/single_run/run_traceB_sim.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/single_run/single_run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/utils/bookings_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/utils/cost_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/utils/geo_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/utils/path_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/utils/vehicle_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../whatsappCrawler/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../whatsappCrawler/Classes/DBManager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../whatsappCrawler/Classes/UserList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../whatsappCrawler/Classes/WhatsappCrawler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../whatsappCrawler/Configurations/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../whatsappCrawler/Configurations/cred.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../whatsappCrawler/Data/ListOfContacts.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../whatsappCrawler/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../whatsappCrawler/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../whatsappCrawler/geckodriver_test.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1oO0c50dngGp3e8jzKv53ZEgsBv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rugby-pass-scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="rugby-pass-scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.__main__" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="846fc592-6e0f-4bbb-98da-e66eb9285731" name="Default Changelist" comment="" />
+      <created>1613142406584</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613142406584</updated>
+      <workItem from="1613142410379" duration="5283000" />
+      <workItem from="1613166601739" duration="8595000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613143857315">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-544.-1440.2560.1440@0.0.1440.900" timestamp="1613143857315" />
+    <state width="2518" height="245" key="GridCell.Tab.0.bottom" timestamp="1613175485856">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-544.-1440.2560.1440@0.0.1440.900" timestamp="1613146823610" />
+    <state width="2518" height="245" key="GridCell.Tab.0.bottom/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613175485856" />
+    <state width="2518" height="245" key="GridCell.Tab.0.center" timestamp="1613175485854">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-544.-1440.2560.1440@0.0.1440.900" timestamp="1613146823608" />
+    <state width="2518" height="245" key="GridCell.Tab.0.center/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613175485854" />
+    <state width="2518" height="245" key="GridCell.Tab.0.left" timestamp="1613175485853">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-544.-1440.2560.1440@0.0.1440.900" timestamp="1613146823607" />
+    <state width="2518" height="245" key="GridCell.Tab.0.left/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613175485853" />
+    <state width="2518" height="245" key="GridCell.Tab.0.right" timestamp="1613175485855">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-544.-1440.2560.1440@0.0.1440.900" timestamp="1613146823609" />
+    <state width="2518" height="245" key="GridCell.Tab.0.right/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613175485855" />
+    <state width="2518" height="375" key="GridCell.Tab.1.bottom" timestamp="1613174652007">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2518" height="375" key="GridCell.Tab.1.bottom/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613174652007" />
+    <state width="2518" height="375" key="GridCell.Tab.1.center" timestamp="1613174652002">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2518" height="375" key="GridCell.Tab.1.center/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613174652002" />
+    <state width="2518" height="375" key="GridCell.Tab.1.left" timestamp="1613174652000">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2518" height="375" key="GridCell.Tab.1.left/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613174652000" />
+    <state width="2518" height="375" key="GridCell.Tab.1.right" timestamp="1613174652006">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2518" height="375" key="GridCell.Tab.1.right/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613174652006" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/rugby_pass_scraper$rps.coverage" NAME="RPS Coverage Results" MODIFIED="1613143711222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/rugby_pass_scraper$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1613175485846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rugby_pass_scraper$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1613143737151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>
