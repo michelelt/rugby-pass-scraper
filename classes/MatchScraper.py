@@ -19,6 +19,32 @@ class MatchScraper(Scraper):
         self.perf_df = pd.DataFrame()
         self.final_df = None
 
+    def standardize_columns_names(self, stat_label):
+        new_columns={}
+        new_columns['attack'] = {
+            'T': 'try_scored', 'M': 'ball_carry_meters', 'C': 'ball_carry', 'BD': 'beat_defender', 'CB': 'line_break', 'P': 'passes',
+            'O': 'offloads', 'TC': 'total_turnovers_conceded', 'TA': 'try_assist', 'Pts': 'points',
+        }
+
+        new_columns['defence'] = {
+            'T': 'tackle_made', 'MT': 'tackle_missed','TW': 'total_turnovers_gained',
+        }
+
+        new_columns['kicking'] = {
+            'K': 'kicks_from_hand', 'C': 'conversion_succesful', 'PG': 'penalty_goal_succesful','DG': 'drop_kick_succesful',
+        }
+
+        new_columns['set plays'] = {
+            'TW': 'lineout_won_own_throws', 'LS': 'lineout_won_steal'
+        }
+
+        new_columns['discipline']={
+            'PC': 'penalties_conceded', 'RC': 'red_card', 'YC': 'yellow_card'
+        }
+
+        return new_columns[stat_label]
+
+
     def get_minute_of_play(self):
 
         soup = BeautifulSoup(self.html, "html.parser" )
@@ -67,10 +93,50 @@ class MatchScraper(Scraper):
 
         return df
 
+    def get_team_stats(self):
+        html = self.html
+        soup = BeautifulSoup(str(html), 'html.parser')
+        div = soup.find_all('script')
+        team_stats = {'home':{}, 'away':{}}
+        for el in list(div):
+            el = str(el)
+            if 'possession' in el.lower():
+                team_stats['home']['possession'] = el.split(',')[2]
+                team_stats['away']['possession'] = el.split(',')[3]
+
+            elif 'rucks won' in el.lower():
+                won = el.split(';')[0]
+                lost = el.split(';')[2]
+                team_stats['home']['rucks_won'] = won.split(',')[2]
+                team_stats['away']['rucks_won'] = won.split(',')[3]
+                team_stats['home']['rucks_lost'] = lost.split(',')[2]
+                team_stats['away']['rucks_lost'] = lost.split(',')[3]
+            else:
+                pass
+
+        soup = BeautifulSoup(str(html), "html.parser")
+        div = soup.find('div', {'data-id': 'team-breakdown'}).find_all('div', {'class': 'home'})
+        team_stats['home']['maul_won_home'] = self.cleanhtml(str(div).split(',')[2]).strip()
+        div = soup.find('div', {'data-id': 'team-breakdown'}).find_all('div', {'class': 'away'})
+        team_stats['away']['maul_won_away'] = self.cleanhtml(str(div).split(',')[2]).strip()
+
+        soup = BeautifulSoup(str(html), "html.parser")
+        div = soup.find('div', {'data-id': 'team-set-plays'}).find_all('div', {'class': 'home'})
+        team_stats['home']['scrum_won'] = self.cleanhtml(str(div).split(',')[2]).strip()
+        team_stats['home']['scrum_lost'] = self.cleanhtml(str(div).split(',')[4]).strip()
+
+        div = soup.find('div', {'data-id': 'team-set-plays'}).find_all('div', {'class': 'away'})
+        team_stats['away']['scrum_won'] = self.cleanhtml(str(div).split(',')[2]).strip()
+        team_stats['away']['scrum_lost'] = self.cleanhtml(str(div).split(',')[4]).strip()
+
+        return team_stats
+
     def concat_all_dfs(self, table, data_indeces):
         dfs = []
         for x in data_indeces.keys():
-            dfs.append(self.html_table_2_df(table, data_indeces[x]))
+            tmp = self.html_table_2_df(table, data_indeces[x])
+            tmp = tmp.rename(columns=self.standardize_columns_names(x))
+            dfs.append(tmp)
         try:
             df = pd.concat(dfs, axis=1)
             team = df.columns[0]
@@ -86,16 +152,18 @@ class MatchScraper(Scraper):
     def get_match_snapshot(self):
         html = self.get_html(self.url)
         minute = self.get_minute_of_play()
-
-        if html != np.nan:
-
+        # print(html)
+        if 'Sorry no stats available' not in self.html:
+        # if 'Sorry no stats available' not in html:
             self.get_html_tables()
 
             team = 'home'
             df1 = self.concat_all_dfs(self.tables[team], self.stats_indeces)
+            df1['is_home'] = True
 
             team = 'away'
             df2 = self.concat_all_dfs(self.tables[team], self.stats_indeces)
+            df2['is_home'] = False
 
             df = pd.concat([df1, df2], axis=0)
             df['timestamp'] = datetime.datetime.utcnow()
@@ -103,9 +171,16 @@ class MatchScraper(Scraper):
             df['minute'] = minute
 
 
-            return df
+            team_stats = self.get_team_stats()
+            team_stats['minute'] = minute
+            team_stats['home']['name'] = df1.team.unique()
+            team_stats['away']['name'] = df2.team.unique()
+
+            team_stats = pd.DataFrame(team_stats)
+
+
+            return df, team_stats
         else:
-            print('Error in html parsing')
-            return pd.DataFrame()
+            return pd.DataFrame(), pd.DataFrame()
 
 

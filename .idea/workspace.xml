@@ -8,8 +8,12 @@
       <change afterPath="$PROJECT_DIR$/../Fantacalcio/configurations/config.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/classes/CalendarScraper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classes/MatchScraper.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/classes/Scraper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/DatabaseProxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/database.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/setup-database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/populae_database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrape_match.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AeP/Classes/Analytics.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AeP/Classes/Parser.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AeP/Constants/Italian/escape_phrases.py" beforeDir="false" />
@@ -282,6 +286,10 @@
       <change beforePath="$PROJECT_DIR$/../city_data_manager/config/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/config/config.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/MatchScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/MatchScraper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../simulator/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../simulator/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../simulator/__main__.py" beforeDir="false" />
@@ -355,8 +363,9 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="6a016af0-7a35-43df-90b0-abe667e74cce" />
   <component name="ProjectId" id="1oO0c50dngGp3e8jzKv53ZEgsBv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -369,7 +378,34 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/database" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.scrape_match">
+    <configuration name="DatabaseProxy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rugby-pass-scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/database" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database/DatabaseProxy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="rugby-pass-scraper" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -414,8 +450,78 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="populae_database" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rugby-pass-scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/populae_database.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scrape_match" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rugby-pass-scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrape_match.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="setup-database" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rugby-pass-scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/database" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database/setup-database.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.scrape_match" />
+        <item itemvalue="Python.populae_database" />
+        <item itemvalue="Python.DatabaseProxy" />
+        <item itemvalue="Python.setup-database" />
         <item itemvalue="Python.__main__" />
       </list>
     </recent_temporary>
@@ -431,7 +537,14 @@
       <option name="presentableId" value="Default" />
       <updated>1613142406584</updated>
       <workItem from="1613142410379" duration="5283000" />
-      <workItem from="1613166601739" duration="8595000" />
+      <workItem from="1613166601739" duration="10632000" />
+      <workItem from="1613817295378" duration="104000" />
+      <workItem from="1613833282004" duration="16378000" />
+      <workItem from="1614420913733" duration="29126000" />
+      <workItem from="1615463356999" duration="2352000" />
+      <workItem from="1615633528824" duration="637000" />
+      <workItem from="1615709703176" duration="739000" />
+      <workItem from="1615761087387" duration="495000" />
     </task>
     <servers />
   </component>
@@ -443,46 +556,68 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-544.-1440.2560.1440@0.0.1440.900" timestamp="1613143857315" />
-    <state width="2518" height="245" key="GridCell.Tab.0.bottom" timestamp="1613175485856">
+    <state x="991" y="347" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614424291093">
       <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="991" y="347" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1614424291093" />
+    <state width="2518" height="375" key="GridCell.Tab.0.bottom" timestamp="1614118621948">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-544.-1440.2560.1440@0.0.1440.900" timestamp="1613146823610" />
-    <state width="2518" height="245" key="GridCell.Tab.0.bottom/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613175485856" />
-    <state width="2518" height="245" key="GridCell.Tab.0.center" timestamp="1613175485854">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state width="2518" height="375" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614118621948" />
+    <state width="2518" height="304" key="GridCell.Tab.0.bottom/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613947552801" />
+    <state width="2518" height="304" key="GridCell.Tab.0.bottom/2560.25.1920.1055/-1920.25.1920.1055/0.0.2560.1080@0.0.2560.1080" timestamp="1613839728980" />
+    <state width="2518" height="375" key="GridCell.Tab.0.center" timestamp="1614118621947">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-544.-1440.2560.1440@0.0.1440.900" timestamp="1613146823608" />
-    <state width="2518" height="245" key="GridCell.Tab.0.center/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613175485854" />
-    <state width="2518" height="245" key="GridCell.Tab.0.left" timestamp="1613175485853">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state width="2518" height="375" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614118621947" />
+    <state width="2518" height="304" key="GridCell.Tab.0.center/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613947552799" />
+    <state width="2518" height="304" key="GridCell.Tab.0.center/2560.25.1920.1055/-1920.25.1920.1055/0.0.2560.1080@0.0.2560.1080" timestamp="1613839728977" />
+    <state width="2518" height="375" key="GridCell.Tab.0.left" timestamp="1614118621947">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-544.-1440.2560.1440@0.0.1440.900" timestamp="1613146823607" />
-    <state width="2518" height="245" key="GridCell.Tab.0.left/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613175485853" />
-    <state width="2518" height="245" key="GridCell.Tab.0.right" timestamp="1613175485855">
-      <screen x="0" y="0" width="2560" height="1080" />
+    <state width="2518" height="375" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614118621947" />
+    <state width="2518" height="304" key="GridCell.Tab.0.left/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613947552798" />
+    <state width="2518" height="304" key="GridCell.Tab.0.left/2560.25.1920.1055/-1920.25.1920.1055/0.0.2560.1080@0.0.2560.1080" timestamp="1613839728976" />
+    <state width="2518" height="375" key="GridCell.Tab.0.right" timestamp="1614118621948">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-544.-1440.2560.1440@0.0.1440.900" timestamp="1613146823609" />
-    <state width="2518" height="245" key="GridCell.Tab.0.right/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613175485855" />
-    <state width="2518" height="375" key="GridCell.Tab.1.bottom" timestamp="1613174652007">
+    <state width="2518" height="375" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614118621948" />
+    <state width="2518" height="304" key="GridCell.Tab.0.right/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613947552800" />
+    <state width="2518" height="304" key="GridCell.Tab.0.right/2560.25.1920.1055/-1920.25.1920.1055/0.0.2560.1080@0.0.2560.1080" timestamp="1613839728979" />
+    <state width="2518" height="375" key="GridCell.Tab.1.bottom" timestamp="1614118621950">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="2518" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614118621950" />
+    <state width="2518" height="375" key="GridCell.Tab.1.bottom/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613945542943" />
+    <state width="2518" height="375" key="GridCell.Tab.1.center" timestamp="1614118621949">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="2518" height="375" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1614118621949" />
+    <state width="2518" height="375" key="GridCell.Tab.1.center/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613945542942" />
+    <state width="2518" height="375" key="GridCell.Tab.1.left" timestamp="1614118621949">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="2518" height="375" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1614118621949" />
+    <state width="2518" height="375" key="GridCell.Tab.1.left/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613945542941" />
+    <state width="2518" height="375" key="GridCell.Tab.1.right" timestamp="1614118621949">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="2518" height="375" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1614118621949" />
+    <state width="2518" height="375" key="GridCell.Tab.1.right/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613945542942" />
+    <state width="1280" height="540" key="XDebugger.FullValuePopup" timestamp="1615045799904">
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
-    <state width="2518" height="375" key="GridCell.Tab.1.bottom/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613174652007" />
-    <state width="2518" height="375" key="GridCell.Tab.1.center" timestamp="1613174652002">
-      <screen x="0" y="0" width="2560" height="1080" />
-    </state>
-    <state width="2518" height="375" key="GridCell.Tab.1.center/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613174652002" />
-    <state width="2518" height="375" key="GridCell.Tab.1.left" timestamp="1613174652000">
-      <screen x="0" y="0" width="2560" height="1080" />
-    </state>
-    <state width="2518" height="375" key="GridCell.Tab.1.left/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613174652000" />
-    <state width="2518" height="375" key="GridCell.Tab.1.right" timestamp="1613174652006">
-      <screen x="0" y="0" width="2560" height="1080" />
-    </state>
-    <state width="2518" height="375" key="GridCell.Tab.1.right/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1613174652006" />
+    <state width="1280" height="540" key="XDebugger.FullValuePopup/-1920.0.1920.1080/2560.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1615045799904" />
+    <state width="1280" height="540" key="XDebugger.FullValuePopup/2560.0.1920.1080/-1920.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1614429735367" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/rugby_pass_scraper$rps.coverage" NAME="RPS Coverage Results" MODIFIED="1613143711222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/rugby_pass_scraper$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1613175485846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rugby_pass_scraper$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1613947552785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/rugby_pass_scraper$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1613143737151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/rugby_pass_scraper$scrape_match.coverage" NAME="scrape_match Coverage Results" MODIFIED="1613945182181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
